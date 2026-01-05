@@ -1,6 +1,7 @@
 # Cricket RAG CLI Assistant
---
+
 A simple CLI-based Retrieval-Augmented Generation (RAG) application that answers cricket-related questions using custom documents. This project demonstrates how to build a small RAG system using a PDF of the MCC 2017 Laws of Cricket, embedding it into a vector database with Chroma, and querying it with an LLM (ChatGroq).
+
 --
 # Features
 
@@ -16,6 +17,7 @@ A simple CLI-based Retrieval-Augmented Generation (RAG) application that answers
 
 ### Skips re-embedding if the vector database already contains documents.
 
+--
 # Project Structure
 Project Root/
 ├── app.py                  # Main CLI application
@@ -82,3 +84,4 @@ Answer: A Test match is played over five days...
 # License
 
 MIT License
+
