@@ -1,0 +1,10 @@
+python-dotenv
+langchain
+langchain-core
+langchain-openai
+langchain-groq
+langchain-google-genai
+langchain_communtiy
+pypdf
+langchain_huggingface
+langchain_text_splitters
